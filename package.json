@@ -2,11 +2,11 @@
   "name": "whatsapp-ai-bot",
   "version": "1.0.0",
   "description": "WhatsApp AI Bot powered by Claude",
-  "main": "src/index.js",
   "main": "index.js",
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
-  "start": "node index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.24.0",
     "axios": "^1.7.0",
@@ -18,4 +18,3 @@
   "engines": {
     "node": ">=18.0.0"
   }
-}
